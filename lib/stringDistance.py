@@ -57,3 +57,6 @@ class StringDistance() :
         s = sum(list(power))
         return np.sqrt(s)
 
+
+s = StringDistance("asdfgh","qwerr123").get_similarity_index()
+print(s)
