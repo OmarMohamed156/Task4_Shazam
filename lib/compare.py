@@ -41,5 +41,5 @@ class Compare() :
         return sorted_sim
 
     def __get_songs(self) :
-        return Json.reader("DB.json")
+        return Json.reader(r"Task4_Shazam\DB.json")
 
